@@ -2,46 +2,38 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introducción
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Bienvenido a la documentación oficial del proyecto de plataforma web desarrollada para **Whirlpool**.
 
-## Getting Started
+Esta plataforma tiene como objetivo centralizar y facilitar la **capacitación de técnicos** que se integran a la empresa, permitiendo al **usuario administrador** cargar, administrar y supervisar los cursos disponibles para los nuevos empleados.
 
-Get started by **creating a new site**.
+## ¿Qué es esta plataforma?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Se trata de un sistema web diseñado para:
 
-### What you'll need
+- Permitir al **administrador** crear y gestionar cursos de capacitación.
+- Ofrecer a los **técnicos** una forma estructurada de acceder y completar los cursos asignados.
+- Monitorear el progreso y desempeño de cada técnico.
+- Mejorar la eficiencia y calidad del proceso de onboarding técnico dentro de Whirlpool.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Público objetivo
 
-## Generate a new site
+Esta documentación está dirigida a:
 
-Generate a new Docusaurus site using the **classic template**.
+- **Desarrolladores** que quieran entender y mantener el sistema.
+- **Administradores** que deseen conocer cómo operar la plataforma.
+- **Técnicos** que busquen guías sobre cómo utilizar el sistema desde su rol.
 
-The classic template will automatically be added to your project after you run the command:
+## Estructura de la documentación
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+A lo largo de esta documentación encontrarás:
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- Instrucciones para desplegar el sistema localmente o en producción.
+- Detalles sobre la arquitectura y las tecnologías utilizadas.
+- Guías paso a paso para los distintos tipos de usuario.
+- Recomendaciones de mantenimiento y desarrollo futuro.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+---
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+¿Requieres que la documentación incluya detalles como: estructura de base de datos, endpoints de la API, roles de usuario, o flujo de uso del sistema? Indícamelo para completar la documentación de forma más técnica y útil para tu equipo.
